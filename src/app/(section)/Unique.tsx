@@ -33,8 +33,8 @@ const Unique: React.FC = () => {
               className="h-[300px] w-full md:h-[450px]"
             />
           </div>
-          <div className="relative hidden w-full md:block md:w-[34%]">
-            <div className="absolute -top-6 left-10">
+          <div className="relative h-[350px] w-full md:h-[450px] md:w-[34%]">
+            <div className="absolute -top-6 left-3 md:left-10">
               {/* first */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -71,7 +71,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[8%]">
+            <div className="absolute left-3 top-[8%] md:left-10">
               {/* second */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -108,7 +108,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[22%]">
+            <div className="absolute left-3 top-[22%] md:left-10">
               {/* tird */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -145,7 +145,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[34%]">
+            <div className="absolute left-3 top-[34%] md:left-10">
               {/* fourth */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -182,7 +182,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[48%]">
+            <div className="absolute left-3 top-[48%] md:left-10">
               {/* fifth */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -219,7 +219,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[62%]">
+            <div className="absolute left-3 top-[62%] md:left-10">
               {/* sixth */}
               <div className="flex flex-row gap-4">
                 <div>
@@ -256,7 +256,7 @@ const Unique: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute left-10 top-[76%]">
+            <div className="absolute left-3 top-[76%] md:left-10">
               {/* seventh */}
               <div className="flex flex-row gap-4">
                 <div>
