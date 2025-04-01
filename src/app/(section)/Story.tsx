@@ -5,7 +5,7 @@ import React from "react";
 
 const Story: React.FC = () => {
   return (
-    <section className="relative h-full w-full bg-[#fff] pb-72 pt-12 md:h-screen md:pb-24 md:pt-24">
+    <section className="relative h-full w-full bg-[#fff] pb-12 pt-12 md:h-screen md:pb-24 md:pt-24">
       <div className="absolute right-[10%] top-[17%] hidden md:block">
         <Link href={"/menu"}>
           <Button
@@ -34,7 +34,7 @@ const Story: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="absolute top-[65%] md:left-[10%] md:top-1/2">
+      {/* <div className="absolute top-[65%] md:left-[10%] md:top-1/2">
         <Image
           src={"/images/home/story/bg.png"}
           width={281}
@@ -42,8 +42,8 @@ const Story: React.FC = () => {
           alt="logo"
           className="h-[200px] w-full"
         />
-      </div>
-      <div className="absolute left-[60%] top-[65%] md:left-[35%] md:top-[35%]">
+      </div> */}
+      {/* <div className="absolute left-[60%] top-[65%] md:left-[35%] md:top-[35%]">
         <Image
           src={"/images/home/story/s.png"}
           width={281}
@@ -80,7 +80,7 @@ const Story: React.FC = () => {
             D
           </h1>
         </div>
-      </div>
+      </div> */}
       <div className="flex flex-col items-center justify-center gap-4 px-4 md:hidden md:gap-6">
         <h6 className="text-center font-sofia_sans text-2xl font-[400] uppercase text-[#8C7753] md:text-2xl">
           OUR STORY

@@ -26,282 +26,30 @@ const Unique: React.FC = () => {
         <div className="flex w-full flex-col gap-4 px-4 pt-8 md:flex-row md:px-10">
           <div className="w-full md:w-[33%]">
             <Image
-              src={"/images/home/story/image2.png"}
+              src={"/images/home/story/image1.jpg"}
               width={281}
               height={74}
               alt="image"
-              className="h-[300px] w-full md:h-[450px]"
+              className="h-auto w-full"
             />
-          </div>
-          <div className="relative h-[350px] w-full md:h-[450px] md:w-[34%]">
-            <div className="absolute -top-6 left-3 md:left-10">
-              {/* first */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[8%] md:left-10">
-              {/* second */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[22%] md:left-10">
-              {/* tird */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[34%] md:left-10">
-              {/* fourth */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[48%] md:left-10">
-              {/* fifth */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[62%] md:left-10">
-              {/* sixth */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute left-3 top-[76%] md:left-10">
-              {/* seventh */}
-              <div className="flex flex-row gap-4">
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    {" "}
-                    <h1
-                      className="text-center font-open_sans text-8xl font-[600] uppercase tracking-[-10px] md:text-[116px]"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #EBC488 -39.86%, #171711  100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK
-                    </h1>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="w-full md:w-[33%]">
             <Image
-              src={"/images/home/story/image1.png"}
+              src={"/images/home/story/image2.jpg"}
               width={281}
               height={74}
               alt="image"
-              className="h-[300px] w-full md:h-[450px]"
+              className="h-auto w-full"
+            />
+          </div>
+          <div className="w-full md:w-[33%]">
+            <Image
+              src={"/images/home/story/image3.jpg"}
+              width={281}
+              height={74}
+              alt="image"
+              className="h-auto w-full"
             />
           </div>
         </div>
