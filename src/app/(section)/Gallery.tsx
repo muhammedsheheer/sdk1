@@ -586,769 +586,769 @@ const Gallery: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* mobile screen start */}
-          <div className="relative flex h-[450px] w-full flex-col gap-2 md:w-[45%]">
-            <div className="absolute inset-0 z-50 ml-12 mt-10 items-center justify-center md:hidden">
-              <div className="flex flex-col gap-6">
-                <Image
-                  src={"/images/home/gallery/image4.png"}
-                  width={281}
-                  height={74}
-                  alt="image"
-                  className="h-[200px] w-[270px] object-cover md:h-[250px]"
-                />
-                <Image
-                  src={"/images/home/gallery/image4.png"}
-                  width={281}
-                  height={74}
-                  alt="image"
-                  className="h-[200px] w-[270px] object-cover md:h-[250px]"
-                />
-              </div>
+        {/* mobile screen start */}
+        <div className="relative flex h-[450px] w-full flex-col gap-2 md:w-[45%]">
+          <div className="absolute inset-0 z-50 ml-12 mt-10 items-center justify-center md:hidden">
+            <div className="flex flex-col gap-6">
+              <Image
+                src={"/images/home/gallery/image4.png"}
+                width={281}
+                height={74}
+                alt="image"
+                className="h-[200px] w-[270px] object-cover md:h-[250px]"
+              />
+              <Image
+                src={"/images/home/gallery/image4.png"}
+                width={281}
+                height={74}
+                alt="image"
+                className="h-[200px] w-[270px] object-cover md:h-[250px]"
+              />
             </div>
-            <div className="absolute left-6 top-4 md:hidden">
-              <div className="z-0 flex flex-col">
+          </div>
+          <div className="absolute left-6 top-4 md:hidden">
+            <div className="z-0 flex flex-col">
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
               </div>
-            </div>
-            {/* second one  */}
-            <div className="absolute left-[28%] top-4 z-20 md:hidden">
-              <div className="z-0 flex flex-col">
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
               </div>
-            </div>
-            {/* tird one  */}
-            <div className="absolute left-[48%] top-4 z-20 md:hidden">
-              <div className="z-0 flex flex-col">
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
               </div>
-            </div>
-            {/* fourth one  */}
-            <div className="absolute left-[72%] top-4 z-20 md:hidden">
-              <div className="z-0 flex flex-col">
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
+              </div>
+              <div>
                 <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h1
-                      className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
-                      style={{
-                        background:
-                          "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      SDK{" "}
-                    </h1>
-                  </div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
                 </div>
               </div>
             </div>
           </div>
-          {/* mobile screen end */}
+          {/* second one  */}
+          <div className="absolute left-[28%] top-4 z-20 md:hidden">
+            <div className="z-0 flex flex-col">
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* tird one  */}
+          <div className="absolute left-[48%] top-4 z-20 md:hidden">
+            <div className="z-0 flex flex-col">
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* fourth one  */}
+          <div className="absolute left-[72%] top-4 z-20 md:hidden">
+            <div className="z-0 flex flex-col">
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h1
+                    className="text-center font-open_sans text-4xl font-[600] uppercase md:text-8xl"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, #C5C392 -39.86%, #171711 99.71%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
+                    SDK{" "}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* mobile screen end */}
       </div>
     </section>
   );
