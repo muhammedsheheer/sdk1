@@ -28,10 +28,10 @@ const Special = ({}) => {
           <div className="flex flex-col items-center justify-center gap-2">
             <div className="flex flex-col items-center justify-center gap-2">
               <span className="font-birthstone text-2xl font-[400] tracking-[0.76px] text-[#fff]">
-                highlights{" "}
+                Dishes{" "}
               </span>
               <h6 className="text-center font-sofia_sans text-4xl font-[400] uppercase text-[#fff] md:text-5xl">
-                Sdk highlights
+                Sdk Dishes
               </h6>
               <Link href={"/menu"}>
                 <Button
