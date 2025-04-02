@@ -48,20 +48,20 @@ const Navbar = ({
         <div
           className={
             pathname === "/"
-              ? "flex h-screen w-[22%] flex-col items-center justify-center bg-[#11331B]"
+              ? "flex h-screen w-[22%] flex-col items-center justify-center bg-transparent"
               : "flex flex-row items-center justify-center"
           }
         >
           <div
             className={
               pathname === "/"
-                ? "flex flex-col items-start gap-8"
+                ? "flex flex-col items-start gap-14"
                 : "mt-2 flex flex-row items-center justify-center gap-14"
             }
           >
             <Link
               href={"/"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -74,7 +74,7 @@ const Navbar = ({
             </Link>
             <Link
               href={"/menu"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -85,9 +85,9 @@ const Navbar = ({
               />{" "}
               Menu
             </Link>
-            <Link
+            {/* <Link
               href={"/about-us"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -97,10 +97,10 @@ const Navbar = ({
                 className="h-5 w-2"
               />{" "}
               About
-            </Link>
+            </Link> */}
             <Link
               href={""}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -113,7 +113,7 @@ const Navbar = ({
             </Link>
             <Link
               href={"/table-booking"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -126,7 +126,7 @@ const Navbar = ({
             </Link>
             <Link
               href={"/contact"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
             >
               <Image
                 src={"/images/home/hero/dot.svg"}
@@ -147,7 +147,7 @@ const Navbar = ({
           <div>
             <Link href={"/"}>
               <Image
-                src={"/images/home/hero/logo.png"}
+                src={"/images/logo.png"}
                 width={281}
                 height={74}
                 alt="logo"

@@ -11,7 +11,7 @@ export default {
         birthstone: ["var(--font-birthstone)", ...fontFamily.sans],
         inter: ["var(--font-inter)", ...fontFamily.sans],
         open_sans: ["var(--font-open_sans)", ...fontFamily.sans],
-        lora: ["var(--font-lora)", ...fontFamily.sans],
+        poppins: ["var(--font-poppins)", ...fontFamily.sans],
         sofia_sans: ["var(--sofia_sans)", ...fontFamily.sans],
       },
       borderRadius: {
