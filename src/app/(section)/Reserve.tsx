@@ -5,34 +5,59 @@ import React from "react";
 
 const Reserve: React.FC = () => {
   return (
-    <section className="relative h-full w-full flex flex-col md:flex-row py-12 gap-4 bg-black">
-      <div className="w-full md:w-3/5 flex gap-4">
-        <Image
-         src='/images/home/reservation/1.png'
-         width={993}
-         height={838}
-         alt="1"
-        />
-              <Image
-         src='/images/home/reservation/2.png'
-         width={93}
-         height={838}
-         alt="2"
-        />
+    <section className="relative h-full w-full bg-[#fff] py-12 md:py-24">
+      <div className="absolute -left-[280px] top-0 hidden md:block">
+        <h1
+          className="text-center font-open_sans text-8xl font-[600] uppercase md:text-[550px]"
+          style={{
+            background:
+              "linear-gradient(180deg, #EBC488 -39.86%, #171711  99.71%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          DK
+        </h1>
       </div>
-      <div className="w-full md:w-2/5 flex flex-col justify-center items-center">
-      <div className="w-fit h-fit flex flex-col gap-3">
-      <p className="uppercase text-4xl font-open_sans tracking-[9px] text-[#D3A641]">RESERVE YOUR<br/> TABLE</p>
-      <p className="inter text-white lowercase max-w-[300px]">Reserve your table now and enjoy a delicious dining experience at Space Bar & Grill! <br/>
-      Whether it’s a casual meal or a special occasion, we’ve got the perfect spot for you.</p>
-      <Link href={"/table-booking"}>
-          <Button
-            className="relative z-40 flex items-center justify-center gap-3 px-7 py-6 uppercase rounded-none text-black bg-[#D3A641]"
+      <div className="absolute -right-[230px] top-0 hidden md:block">
+        <div>
+          <h1
+            className="text-center font-open_sans text-8xl font-[600] uppercase md:text-[550px]"
+            style={{
+              background:
+                "linear-gradient(180deg, #EBC488 -39.86%, #171711  99.71%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            SD
+          </h1>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center justify-center gap-4 px-4 md:px-0">
+        <span className="font-birthstone text-2xl font-[400] tracking-[0.76px] text-[#8C7753]">
+          highlights
+        </span>
+        <h6 className="text-center font-sofia_sans text-4xl font-[400] uppercase text-[#11331B] md:text-6xl">
+          Reserve <br />
+          Your Table
+        </h6>
+        <p className="w-full max-w-[450px] text-center font-inter text-sm font-[300] text-[rgba(156,158,159,0.60)] md:text-base">
+          Lorem ipsum dolor sit amet, consectet adipisicing eli sed do eiu sm od
+          tempor incididunt ut abore et dolore mag aliqua. Ut enim ad minm eniam
+          quis nostrud.
+        </p>
+        <div className="">
+          <Link href={"/table-booking"}>
+            <Button
+              className="relative z-40 mt-4 flex items-center justify-center gap-3 px-7 py-7 uppercase text-[#fff]"
+              variant="imageB"
             >
-      Reserve
-          </Button>
-        </Link>
-            </div>
+              Book Now
+            </Button>
+          </Link>
+        </div>
       </div>
     </section>
   );

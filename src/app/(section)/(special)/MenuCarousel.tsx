@@ -308,6 +308,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   return (
     <>
       <div className="relative z-50 flex w-full flex-col items-center gap-2">
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            src={"/images/home/follow/s.png"}
+            width={160}
+            height={160}
+            alt="logo"
+            className="h-[380px] w-[200px] object-cover md:h-[400px]"
+          />
+        </div>
         <div className="embla-menu">
           <div className="embla-menu__viewport" ref={emblaRef}>
             <div className="embla-menu__container">
@@ -355,10 +364,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       <div className="absolute left-0 top-0 z-10 flex h-full w-full justify-center">
         <div
           className="h-full w-[90%] sm:w-[70%] lg:w-[50%] xl:w-[30%]"
-          style={{
-            borderRadius: "187.5rem 187.5rem 0rem 0rem",
-            background: "linear-gradient(180deg, #D3A641 0%, #131212 100%)",
-          }}
+          // style={{
+          //   borderRadius: "187.5rem 187.5rem 0rem 0rem",
+          //   background: "linear-gradient(180deg, #161616 0%, #070707 100%)",
+          // }}
         />
         <div className="absolute left-1/2 top-0 translate-x-16 transform sm:translate-x-24 md:translate-x-28">
           {/* <div className="relative flex size-24 items-center justify-center">

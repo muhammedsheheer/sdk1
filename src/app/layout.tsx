@@ -5,10 +5,10 @@ import { cn } from "@/lib/utils";
 import { type Metadata } from "next";
 import {
   Open_Sans,
+  Lora,
   Birthstone,
   Inter,
   Sofia_Sans_Extra_Condensed,
-  Poppins,
 } from "next/font/google";
 import Providers from "@/app/Providers";
 
@@ -36,16 +36,16 @@ const inter = Inter({
   weight: ["400"],
 });
 
-const poppins = Poppins({
+const lora = Lora({
   subsets: ["latin"],
-  variable: "--font-poppins",
+  variable: "--font-lora",
   weight: ["400", "500", "600", "700"],
 });
 
 const open_sans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-open_sans",
-  weight: ["300","400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export default function RootLayout({
@@ -58,7 +58,7 @@ export default function RootLayout({
           "theme-custom flex min-h-screen font-inter antialiased",
           open_sans.variable,
           inter.variable,
-          poppins.variable,
+          lora.variable,
           birthstone.variable,
           sofia_sans.variable,
         )}
