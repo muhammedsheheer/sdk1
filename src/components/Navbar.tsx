@@ -42,7 +42,7 @@ const Navbar = ({
         className={
           pathname === "/"
             ? "hidden px-4 pt-0 md:block md:px-0"
-            : "px-4 pt-0 md:px-[50px] 2xl:px-[140px]"
+            : "hidden px-4 pt-0 md:block md:px-[50px] 2xl:px-[140px]"
         }
       >
         <div

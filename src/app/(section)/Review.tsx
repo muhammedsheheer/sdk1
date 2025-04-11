@@ -54,9 +54,9 @@ const Reviews = ({}) => {
                       index % 2 === 0 ? "mt-4" : "mb-4"
                     }`}
                   >
-                    <div className="flex h-[250px] flex-col gap-6 border border-[#11331B] bg-[#11331B] px-6 py-8">
+                    <div className="flex h-[350px] flex-col gap-6 border border-[#11331B] bg-[#11331B] px-6 py-8">
                       <div className="flex w-full justify-center">
-                        {Array.from({ length: review.rating }).map(
+                        {Array.from({ length: review?.rating }).map(
                           (_, index) => (
                             <Icons.star
                               key={index}
@@ -67,10 +67,10 @@ const Reviews = ({}) => {
                       </div>
                       <div className="flex flex-col gap-4">
                         <p className="font-cormorant line-clamp-6 text-center text-sm font-[500] uppercase text-[#FEF9F9] md:px-4 lg:leading-[120%]">
-                          {review.text}
+                          {review?.text?.text}
                         </p>
                         <p className="font-cormorant text-center text-sm font-[500] uppercase leading-[120%] text-[#FEF9F9] md:mt-4">
-                          {review.author_name}
+                          {review?.authorAttribution.displayName}
                         </p>
                       </div>
                     </div>
