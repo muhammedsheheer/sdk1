@@ -348,7 +348,7 @@ const Latest = ({}) => {
             </div>
           </div>
           <Carousel
-            className="carousal-item w-full md:w-[1100px]"
+            className="carousal-item hidden w-full md:block md:w-[1100px]"
             style={{
               transform: "scale(1.3)",
               opacity: 0,
@@ -358,7 +358,7 @@ const Latest = ({}) => {
               {images.map((item, index) => (
                 <CarouselItem
                   key={index}
-                  className="flex justify-center md:basis-1/2 lg:basis-1/3"
+                  className="flex basis-1/2 justify-center md:basis-1/3"
                 >
                   <SpecialPopup item={item}>
                     <Image
@@ -391,6 +391,36 @@ const Latest = ({}) => {
               />
             </div>
           </Carousel>
+          <div className="grid grid-cols-2 gap-2 md:hidden">
+            <Image
+              src={"/images/home/highlights/image1.png"}
+              width={281}
+              height={74}
+              alt="image"
+              className="h-auto w-full"
+            />
+            <Image
+              src={"/images/home/highlights/image2.png"}
+              width={281}
+              height={74}
+              alt="image"
+              className="h-auto w-full"
+            />
+            <Image
+              src={"/images/home/highlights/image3.png"}
+              width={281}
+              height={74}
+              alt="image"
+              className="h-auto w-full"
+            />
+            <Image
+              src={"/images/home/highlights/image1.png"}
+              width={281}
+              height={74}
+              alt="image"
+              className="h-auto w-full"
+            />
+          </div>
         </div>
       </div>
     </section>
