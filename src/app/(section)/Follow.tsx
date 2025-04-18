@@ -29,7 +29,7 @@ const Follow: React.FC = () => {
               />
               <div>
                 <Link
-                  href={""}
+                  href={"https://www.instagram.com/sdkmanchester/"}
                   target="_blank"
                   className="text-md text-center font-open_sans font-[400] uppercase md:text-xl"
                   style={{

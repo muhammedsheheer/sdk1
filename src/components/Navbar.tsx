@@ -98,7 +98,7 @@ const Navbar = ({
               />{" "}
               About
             </Link>
-            <Link
+            {/* <Link
               href={""}
               className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"
             >
@@ -110,7 +110,7 @@ const Navbar = ({
                 className="h-5 w-2"
               />{" "}
               Food & Drinks
-            </Link>
+            </Link> */}
             <Link
               href={"/table-booking"}
               className="flex flex-row items-center justify-center gap-1 font-open_sans text-xs font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#C5AC75]"

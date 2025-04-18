@@ -92,7 +92,7 @@
 
   /* menu Checkout Start */
 
-  --menubackground: 194, 38%, 9%;
+  --menubackground: 137.65, 50%, 13.33%;
   --menuforeground: 0, 0%, 0%;
   --menuprimary: 37, 36%, 65%;
   --menusecondary: 0, 2%, 97%;
@@ -103,7 +103,7 @@
   --itemdescription: 0, 2%, 48%;
   --itembutton: 37, 36%, 65%;
   --buttondisabled: 0, 0%, 29%;
-  --mobilebg: 194, 38%, 9%;
+  --mobilebg: 137.65, 50%, 13.33%;
   --menuwhite: 0, 0%, 100%;
   --borderinput: 0, 0%, 56%;
   --tabbg: 37, 33%, 81%;

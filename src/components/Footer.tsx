@@ -132,23 +132,23 @@ const Footer = ({}) => {
               </div>
               <div className="flex flex-col gap-1">
                 <Link
-                  href={""}
+                  href={"https://g.co/kgs/1xFDr64"}
                   target="_blank"
                   className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
-                  2 Kendal Ave, London W3 0PA
+                  1-7 Chapel St, Salford M3 <br /> 7NJ, United Kingdom
                 </Link>
                 <Link
-                  href={"mailto:info@novaparkroyal.com"}
+                  href={"mailto:info@sdk-bar.restaurant"}
                   className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
-                  info@novaparkroyal.com{" "}
+                  info@sdk-bar.restaurant
                 </Link>
                 <Link
-                  href={"tele:+442035001710"}
+                  href={"tele:+01618346377"}
                   className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
-                  +44 20 3500 1710
+                  0161 8346377
                 </Link>
               </div>
             </div>
@@ -168,18 +168,26 @@ const Footer = ({}) => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center gap-3 md:ml-10">
-          <Link href={""} target="_blank" className="text-[#fff]">
+          <Link
+            href={"https://www.instagram.com/sdkmanchester/"}
+            target="_blank"
+            className="text-[#fff]"
+          >
             <Icons.instagram />
           </Link>
-          <Link href={""} target="_blank" className="text-[#fff]">
+          <Link
+            href={"https://g.co/kgs/1xFDr64"}
+            target="_blank"
+            className="text-[#fff]"
+          >
             <Icons.google />
           </Link>
-          <Link href={""} target="_blank" className="text-[#fff]">
+          {/* <Link href={""} target="_blank" className="text-[#fff]">
             <Icons.unknown />
           </Link>
           <Link href={""} target="_blank" className="text-[#fff]">
             <Icons.facebook />
-          </Link>
+          </Link> */}
         </div>
         <div className="flex flex-col gap-2 pb-10">
           <div className="w-full border-b-[1px] border-b-[rgba(201,171,129,0.40)]" />

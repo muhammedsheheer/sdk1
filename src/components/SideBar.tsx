@@ -60,12 +60,12 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
             >
               Reservation
             </Link>
-            <Link
+            {/* <Link
               href=""
               className="font-playfair flex w-full justify-start p-0 text-4xl font-normal text-white"
             >
               Food & Drinks
-            </Link>
+            </Link> */}
 
             {/* <Button
                             variant="link"
