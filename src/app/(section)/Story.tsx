@@ -16,7 +16,7 @@ const Story: React.FC = () => {
             integration for an unparalleled developer experience! With our SDK,
             we empower you to build robust applications with ease—combining
             powerful tools, detailed documentation, and real-time support.
-            Whether you're crafting dynamic interfaces or integrating complex
+            Whether you`re crafting dynamic interfaces or integrating complex
             backend systems, our SDK ensures your development journey is smooth
             and productive. This is your ultimate toolkit for creating,
             innovating, and scaling faster than ever. Join us and let the SDK
