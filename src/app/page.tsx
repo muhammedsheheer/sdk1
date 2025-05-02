@@ -10,6 +10,7 @@ import Story from "./(section)/Story";
 import Unique from "./(section)/Unique";
 import Reserve from "./(section)/Reserve";
 import Highlights from "./(section)/Highlights";
+import Gallery from "./(section)/Gallery";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Story />
         <Unique />
         <Menu />
+        <Gallery />
         <Reserve />
         <Reviews />
         <Follow />
