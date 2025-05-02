@@ -7,6 +7,15 @@ const Story: React.FC = () => {
   return (
     <section className="relative h-full w-full bg-[#fff] pb-0 pt-12 md:pb-4 md:pt-24">
       <div className="flex w-full flex-col items-center justify-center gap-8 md:flex-row md:gap-16">
+        <div className="w-full md:w-1/2">
+          <Image
+            src={"/images/home/follow/image5.png"}
+            width={160}
+            height={160}
+            alt="logo"
+            className="h-auto w-full object-cover md:h-full"
+          />
+        </div>
         <div className="flex w-full flex-col items-center justify-center gap-4 px-4 md:w-1/2 md:gap-6">
           <h6 className="text-center font-sofia_sans text-2xl font-[400] uppercase text-[#8C7753] md:text-start md:text-5xl">
             OUR STORY
