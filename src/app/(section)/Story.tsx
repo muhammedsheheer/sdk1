@@ -5,105 +5,33 @@ import React from "react";
 
 const Story: React.FC = () => {
   return (
-    <section className="relative h-full w-full bg-[#fff] pb-12 pt-12 md:h-screen md:pb-24 md:pt-24">
-      <div className="absolute right-[10%] top-[17%] hidden md:block">
-        <Link href={"/menu"}>
-          <Button
-            className="relative z-40 mt-4 flex items-center justify-center gap-3 px-7 py-7 uppercase"
-            variant="imageoutline"
-          >
-            View Menu
-          </Button>
-        </Link>
-      </div>
-      <div className="absolute left-[42%] top-[38%] z-50 hidden md:block">
-        <div className="flex flex-col gap-6">
-          <h6 className="text-center font-sofia_sans text-xl font-[400] uppercase text-[#8C7753] md:text-2xl">
+    <section className="relative h-full w-full bg-[#fff] pb-0 pt-12 md:pb-4 md:pt-24">
+      <div className="flex w-full flex-col items-center justify-center gap-8 md:flex-row md:gap-16">
+        <div className="flex w-full flex-col items-center justify-center gap-4 px-4 md:w-1/2 md:gap-6">
+          <h6 className="text-center font-sofia_sans text-2xl font-[400] uppercase text-[#8C7753] md:text-start md:text-5xl">
             OUR STORY
           </h6>
-          <p className="w-full max-w-[400px] bg-[#FFFFFF] px-4 text-center font-lora text-sm font-[400] lowercase text-[#9C9E9F] md:text-start">
-            Welcome to Nova, where gastronomy meets entertainment for an
-            unparalleled experience in Park Royal! At Nova, we invite you to
-            enjoy the finest steaks and sushi whilst you enjoy the lively
-            atmosphere as we host live music and DJ nights, ensuring that your
-            dining experience is not just a meal but a celebration. Nova is your
-            ultimate destination for those seeking a perfect blend of exquisite
-            cuisine and vibrant entertainment. Join us, and let Nova in Park
-            Royal redefine your expectations of gastronomic delight and
-            nightlife.
+          <p className="md:text w-full max-w-[650px] bg-[#FFFFFF] text-center font-lora text-sm font-[400] text-[#9C9E9F] md:text-justify md:text-lg">
+            Welcome to the SDK, where seamless development meets powerful
+            integration for an unparalleled developer experience! With our SDK,
+            we empower you to build robust applications with ease—combining
+            powerful tools, detailed documentation, and real-time support.
+            Whether you're crafting dynamic interfaces or integrating complex
+            backend systems, our SDK ensures your development journey is smooth
+            and productive. This is your ultimate toolkit for creating,
+            innovating, and scaling faster than ever. Join us and let the SDK
+            redefine your expectations of development efficiency and innovation.
           </p>
-        </div>
-      </div>
-      {/* <div className="absolute top-[65%] md:left-[10%] md:top-1/2">
-        <Image
-          src={"/images/home/story/bg.png"}
-          width={281}
-          height={74}
-          alt="logo"
-          className="h-[200px] w-full"
-        />
-      </div> */}
-      {/* <div className="absolute left-[60%] top-[65%] md:left-[35%] md:top-[35%]">
-        <Image
-          src={"/images/home/story/s.png"}
-          width={281}
-          height={74}
-          alt="logo"
-          className="h-[200px] w-full md:h-full"
-        />
-      </div>
-      <div className="absolute left-[35%] top-[90%] z-50 md:left-[29%] md:top-[70%]">
-        <Image
-          src={"/images/home/story/k.png"}
-          width={281}
-          height={74}
-          alt="logo"
-          className="h-full w-full"
-        />
-      </div>
-      <div>
-        <div
-          className="absolute left-[30%] top-[65%] z-10 md:left-[25%] md:top-[35%]"
-          style={{
-            transform: "rotate(18deg) translate(50px, 50px)",
-          }}
-        >
-          <h1
-            className="scale-x-[1] scale-y-[1.5] text-center font-open_sans text-8xl font-[600] uppercase md:text-[180px]"
-            style={{
-              background:
-                "linear-gradient(195deg, #fff 20.55%, #11331B  72.42%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            D
-          </h1>
-        </div>
-      </div> */}
-      <div className="flex flex-col items-center justify-center gap-4 px-4 md:hidden md:gap-6">
-        <h6 className="text-center font-sofia_sans text-2xl font-[400] uppercase text-[#8C7753] md:text-2xl">
-          OUR STORY
-        </h6>
-        <p className="w-full max-w-[450px] bg-[#FFFFFF] text-center font-lora text-sm font-[400] lowercase text-[#9C9E9F] md:text-start md:text-base">
-          Welcome to Nova, where gastronomy meets entertainment for an
-          unparalleled experience in Park Royal! At Nova, we invite you to enjoy
-          the finest steaks and sushi whilst you enjoy the lively atmosphere as
-          we host live music and DJ nights, ensuring that your dining experience
-          is not just a meal but a celebration. Nova is your ultimate
-          destination for those seeking a perfect blend of exquisite cuisine and
-          vibrant entertainment. Join us, and let Nova in Park Royal redefine
-          your expectations of gastronomic delight and nightlife.
-        </p>
-        <div>
-          <Link href={"/menu"}>
-            <Button
-              className="relative z-40 mt-4 flex items-center justify-center gap-3 px-5 py-7 uppercase"
-              variant="imageoutline"
-            >
-              View Menu
-            </Button>
-          </Link>
+          <div>
+            <Link href={"/menu"}>
+              <Button
+                className="relative z-40 mt-4 flex items-center justify-center gap-3 px-5 py-7 uppercase md:px-10 md:py-10"
+                variant="imageoutline"
+              >
+                View Menu
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

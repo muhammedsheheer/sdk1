@@ -8,18 +8,20 @@ const Unique: React.FC = () => {
     <section className="relative h-full w-full bg-[#FFF] py-12 md:py-28">
       <div className="flex flex-col gap-4 md:gap-8">
         <div className="flex flex-col items-center justify-center gap-2">
-          <span className="font-birthstone text-2xl font-[400] tracking-[0.76px] text-[#8C7753]">
+          {/* <span className="font-birthstone text-2xl font-[400] tracking-[0.76px] text-[#8C7753]">
             Our story
-          </span>
+          </span> */}
           <h6 className="text-center font-sofia_sans text-4xl font-[400] uppercase text-[#11331B] md:text-5xl">
             What makes us unique{" "}
           </h6>
           <div className="flex flex-col items-center justify-center px-4 md:px-0">
-            <p className="w-full max-w-[570px] text-center font-lora text-sm font-[400] lowercase text-[#9C9E9F] md:text-base">
-              We blend Mediterranean elegance with bold Pan-Asian flavours,
-              crafting innovative sushi and premium seafood dishes using the
-              finest ingredients. Every bite offers a perfect balance of
-              tradition, freshness, and unforgettable taste.
+            <p className="w-full max-w-[570px] text-center font-lora text-sm font-[400] text-[#9C9E9F] md:text-base">
+              We blend streamlined architecture with bold, innovative
+              features—crafting a cutting-edge SDK that delivers
+              high-performance functionality using the most robust, modern
+              technologies. Every integration offers a perfect balance of
+              reliability, flexibility, and an unforgettable developer
+              experience.
             </p>
           </div>
         </div>{" "}

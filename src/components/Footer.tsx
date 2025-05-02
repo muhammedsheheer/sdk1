@@ -21,107 +21,43 @@ const Footer = ({}) => {
           <div className="w-full border-b-[1px] border-b-[rgba(201,171,129,0.40)] md:w-[45%]" />
         </div>
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:justify-start md:gap-10">
-          <div className="flex w-full flex-col items-center justify-center gap-8 md:ml-16 md:w-[45%] md:flex-row md:justify-between md:gap-4">
-            <div className="flex flex-col items-center gap-3 md:items-start">
+          <div className="flex w-full flex-col items-start justify-start gap-8 md:ml-16 md:w-[45%] md:flex-row md:items-center md:justify-end md:gap-4">
+            <div className="flex flex-col items-start gap-3 md:items-start">
               <Link
-                href={""}
+                href={"/"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
-                Our Food
+                Home
               </Link>
               <Link
-                href={"/drinks"}
+                href={"/menu"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
-                Drinks menu{" "}
+                Menu
               </Link>
               <Link
-                href={""}
+                href={"/about-us"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
-                Private DINING{" "}
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                What’s on{" "}
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Our policy{" "}
-              </Link>
-            </div>
-            <div className="flex flex-col items-center gap-3 md:items-start">
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Blog{" "}
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Press{" "}
+                About
               </Link>
               <Link
                 href={"/contact"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
-                Contact us{" "}
+                Contact
               </Link>
               <Link
-                href={""}
+                href={"/table-booking"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
-                Career{" "}
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Find us{" "}
-              </Link>
-            </div>
-            <div className="flex flex-col items-center gap-3 md:items-start">
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Birthday Bookings
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Corporate events
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Christmas parties
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                Venue Hire{" "}
-              </Link>
-              <Link
-                href={""}
-                className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
-              >
-                our partnerd{" "}
+                Reserve
               </Link>
             </div>
           </div>
           <div className="mr-20 hidden h-[100px] w-full border-r-[1px] border-r-[rgba(201,171,129,0.40)] md:block md:h-[200px] md:w-[5%]" />
-          <div className="flex w-full flex-col items-center justify-center gap-8 md:w-[45%] md:flex-row md:justify-start md:gap-20">
-            <div className="flex flex-col items-center gap-3 md:items-start">
+          <div className="flex w-full flex-col items-end justify-end gap-8 md:w-[45%] md:flex-row md:items-center md:justify-start md:gap-20">
+            <div className="flex flex-col items-end gap-3 md:items-start">
               <div>
                 <Link
                   href={""}
@@ -134,32 +70,32 @@ const Footer = ({}) => {
                 <Link
                   href={"https://g.co/kgs/1xFDr64"}
                   target="_blank"
-                  className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
+                  className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
                   1-7 Chapel St, Salford M3 <br /> 7NJ, United Kingdom
                 </Link>
                 <Link
                   href={"mailto:info@sdk-bar.restaurant"}
-                  className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
+                  className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
                   info@sdk-bar.restaurant
                 </Link>
                 <Link
                   href={"tele:+01618346377"}
-                  className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
+                  className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start"
                 >
                   0161 8346377
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-3 md:items-start">
+            <div className="flex flex-col items-end gap-3 md:items-start">
               <Link
                 href={""}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               >
                 Opening hours
               </Link>
-              <p className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start">
+              <p className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#fff] md:text-start">
                 Mon-Thurs 4pm-1am <br />
                 Fri-Sat 12pm-3am <br />
                 Sun 12pm-1am
@@ -167,7 +103,7 @@ const Footer = ({}) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center gap-3 md:ml-10">
+        <div className="flex flex-row items-end justify-end gap-3 md:ml-10 md:items-center md:justify-center">
           <Link
             href={"https://www.instagram.com/sdkmanchester/"}
             target="_blank"

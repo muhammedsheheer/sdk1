@@ -24,7 +24,7 @@ export default function HomePage() {
         <Story />
         <Unique />
         <Highlights />
-        <Special />
+        {/* <Special /> */}
         {/* <Gallery /> */}
         <Menu />
         <Reserve />

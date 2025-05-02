@@ -81,14 +81,14 @@ const menuData = {
 
 const Menu: React.FC = () => {
   return (
-    <section className="relative h-full w-full bg-[#fff] px-4 py-12 md:px-24 md:py-20 2xl:px-40">
-      <div className="absolute right-0 top-[18%] hidden md:block">
+    <section className="relative h-full w-full bg-[#fff] px-4 pb-0 pt-12 md:px-24 md:pb-20 md:pt-20 2xl:px-40">
+      <div className="absolute -top-5 right-0 md:top-[18%]">
         <Image
           src={"/images/home/follow/bg.png"}
           width={281}
           height={74}
           alt="logo"
-          className="h-[750px] w-full"
+          className="h-[900px] w-full object-cover md:h-[750px]"
         />
       </div>
       <div className="flex h-full w-full flex-col items-center gap-4">
@@ -103,7 +103,7 @@ const Menu: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-6 grid w-full gap-8 md:grid-cols-2 md:gap-20 2xl:gap-40">
+        <div className="mt-6 grid w-full grid-cols-2 gap-8 md:gap-20 2xl:gap-40">
           {/* Food Items */}
           <div className="flex flex-col gap-6 md:gap-14">
             {menuData.food.map((item, index) => (
@@ -112,19 +112,19 @@ const Menu: React.FC = () => {
                 className="flex w-full flex-row items-center justify-center gap-0"
               >
                 <div className="flex w-auto flex-col md:w-[488px]">
-                  <p className="font-inter text-base font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
+                  <p className="font-inter text-sm font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
                     {item.name}
                   </p>
-                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-sm font-[300] md:text-base">
+                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-xs font-[300] md:text-base">
                     {item.description}
                   </p>
                 </div>
                 <div className="flex items-center gap-1 md:mb-12">
                   <div className="*: flex flex-col gap-0">
-                    <div className="h-1 w-[150px] border-b-[1px] border-b-[#000]" />
-                    <div className="h-1 w-[150px] border-b-[1px] border-b-[#000]" />
+                    <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
+                    <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
                   </div>
-                  <p className="flex font-inter text-lg font-[500] uppercase tracking-[0.57px] text-[#000]">
+                  <p className="flex font-inter text-base font-[500] uppercase tracking-[0.57px] text-[#000]">
                     £{item.price}
                   </p>
                 </div>
@@ -140,19 +140,19 @@ const Menu: React.FC = () => {
                 className="flex w-full flex-row items-center justify-center gap-0"
               >
                 <div className="flex w-auto flex-col md:w-[488px]">
-                  <p className="font-inter text-base font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
+                  <p className="font-inter text-sm font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
                     {item.name}
                   </p>
-                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-sm font-[300] md:text-base">
+                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-xs font-[300] md:text-base">
                     {item.description}
                   </p>
                 </div>
                 <div className="flex items-center gap-1 md:mb-12">
                   <div className="*: flex flex-col gap-0">
-                    <div className="h-1 w-[150px] border-b-[1px] border-b-[#000]" />
-                    <div className="h-1 w-[150px] border-b-[1px] border-b-[#000]" />
+                    <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
+                    <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
                   </div>
-                  <p className="flex font-inter text-lg font-[500] uppercase tracking-[0.57px] text-[#000]">
+                  <p className="flex font-inter text-base font-[500] uppercase tracking-[0.57px] text-[#000]">
                     £{item.price}
                   </p>
                 </div>
