@@ -106,7 +106,7 @@ const Hero: React.FC = () => {
         </Link>
       </div>
 
-      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 text-white md:ml-16">
+      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 px-4 text-white md:ml-16">
         <div>
           {/* <h1
             className="text-center font-open_sans text-8xl font-[600] uppercase md:text-9xl"
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
             SDK
           </h1> */}
           <h1
-            className="text-center font-open_sans text-8xl font-[600] uppercase md:text-9xl"
+            className="text-center font-open_sans text-5xl font-[600] uppercase md:text-9xl"
             style={{
               background:
                 "linear-gradient(0deg, #677C6D  0.3%, #F6FFF8 75.67%)",

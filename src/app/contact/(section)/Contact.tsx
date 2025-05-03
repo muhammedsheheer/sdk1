@@ -88,12 +88,18 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={"https://g.co/kgs/1xFDr64"} target="_blank">
+                  <Link
+                    href={"https://maps.app.goo.gl/36sgBo5E3eb4yg5Y8"}
+                    target="_blank"
+                  >
                     <p className="text-[#9C9E9F]">
                       1-7 Chapel St, Salford M3 <br /> 7NJ, United Kingdom
                     </p>
                   </Link>
-                  <Link href={"https://g.co/kgs/1xFDr64"} target="_blank">
+                  <Link
+                    href={"https://maps.app.goo.gl/36sgBo5E3eb4yg5Y8"}
+                    target="_blank"
+                  >
                     <p className="flex items-center gap-2 text-sm text-[#9C9E9F]">
                       <span>Get Direction</span>
                       <ArrowRight className="text-[#9C9E9F]" />
@@ -148,7 +154,10 @@ const Contact = ({}) => {
                 {/* <Link href={""} target="_blank">
                   <Icons.unknown className="text-[#9C9E9F]" />
                 </Link> */}
-                <Link href={"https://g.co/kgs/1xFDr64"} target="_blank">
+                <Link
+                  href={"https://maps.app.goo.gl/36sgBo5E3eb4yg5Y8"}
+                  target="_blank"
+                >
                   <Icons.google className="text-[#9C9E9F]" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
@@ -246,7 +255,7 @@ const Contact = ({}) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.5686220585653!2d-2.2458747!3d53.4857252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1cb83b8b4f5%3A0x7737606190785597!2sSDK%20Bar%20Restaurant!5e1!3m2!1sen!2sin!4v1744959041727!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72210.2441425904!2d-2.328274950392208!3d53.48569686409603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1cb83b8b4f5%3A0x7737606190785597!2sSDK%20Bar%20Restaurant!5e1!3m2!1sen!2sin!4v1746262134162!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"

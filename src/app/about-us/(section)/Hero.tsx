@@ -10,16 +10,17 @@ const Hero = ({}) => {
         <div className="flex w-full flex-col gap-6 px-4 lg:flex-row lg:gap-0 lg:px-0">
           <div className="flex w-full items-center justify-center lg:w-1/2">
             <div className="mt-20 flex flex-col items-start gap-6 lg:mt-0 lg:w-8/12">
-              <h1 className="font-oswald text-5xl font-semibold leading-[66px] text-[#fff] lg:text-6xl">
-                Welcome to Nova <br />A Symphony of Flavors
+              <h1 className="font-oswald text-5xl font-semibold text-[#fff] md:leading-[66px] lg:text-6xl">
+                Welcome to Sdk <br />A Symphony of Flavors
               </h1>
               <p className="font-manrope font-normal text-[#9C9E9F]">
-                At Nova, every dish is a masterpiece, crafted with passion and
-                precision. From handpicked ingredients to expertly curated
-                recipes, we bring you a dining experience that blends artistry
-                with flavor. Whether you`re savoring a signature entrée or
-                indulging in a decadent treat, each bite tells a story of
-                quality, innovation, and culinary excellence.
+                At Nova, every line of code is a work of art, crafted with
+                passion and precision. From thoughtfully selected modules to
+                expertly designed APIs, we deliver a development experience that
+                blends innovation with usability. Whether you`re integrating a
+                core feature or exploring advanced capabilities, every
+                interaction reflects our commitment to quality, ingenuity, and
+                engineering excellence.
               </p>
             </div>
           </div>

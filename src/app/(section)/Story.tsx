@@ -16,7 +16,16 @@ const Story: React.FC = () => {
             className="h-auto w-full object-cover md:h-full"
           />
         </div>
-        <div className="flex w-full flex-col items-center justify-center gap-4 px-4 md:w-1/2 md:gap-6">
+        <div className="relative flex w-full flex-col items-center justify-center gap-4 px-4 md:w-1/2 md:gap-6">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src={"/images/home/follow/bg.png"}
+              width={281}
+              height={74}
+              alt="logo"
+              className="h-full w-full"
+            />
+          </div>
           <h6 className="text-center font-sofia_sans text-2xl font-[400] uppercase text-[#8C7753] md:text-start md:text-5xl">
             OUR STORY
           </h6>
