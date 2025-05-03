@@ -20,7 +20,7 @@ const JoinUs = ({}) => {
             Unforgettable Meal
           </h1>
           <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
-            Whether you're building a simple feature or a complex platform, our
+            Whether you`re building a simple feature or a complex platform, our
             SDK invites you to experience development at its finest. From
             carefully designed APIs to thoughtfully engineered modules, every
             component reflects our commitment to excellence. Immerse yourself in
