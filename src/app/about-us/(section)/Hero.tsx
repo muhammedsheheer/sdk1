@@ -18,7 +18,7 @@ const Hero = ({}) => {
                 craftsmanship, built with passion and precision. From carefully
                 chosen modules to elegantly designed APIs, we offer a
                 development experience that fuses innovation with usability.
-                Whether you're implementing a core feature or diving into
+                Whether you`re implementing a core feature or diving into
                 advanced functionality, every interaction showcases our
                 dedication to quality, creativity, and engineering excellence.
               </p>
