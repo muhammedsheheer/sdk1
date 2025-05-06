@@ -14,13 +14,13 @@ const Hero = ({}) => {
                 Welcome to Sdk <br />A Symphony of Flavors
               </h1>
               <p className="font-manrope font-normal text-[#9C9E9F]">
-                At Nova, every line of code is a work of art, crafted with
-                passion and precision. From thoughtfully selected modules to
-                expertly designed APIs, we deliver a development experience that
-                blends innovation with usability. Whether you`re integrating a
-                core feature or exploring advanced capabilities, every
-                interaction reflects our commitment to quality, ingenuity, and
-                engineering excellence.
+                At SDK, every line of code is a testament to thoughtful
+                craftsmanship, built with passion and precision. From carefully
+                chosen modules to elegantly designed APIs, we offer a
+                development experience that fuses innovation with usability.
+                Whether you're implementing a core feature or diving into
+                advanced functionality, every interaction showcases our
+                dedication to quality, creativity, and engineering excellence.
               </p>
             </div>
           </div>

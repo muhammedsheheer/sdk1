@@ -96,7 +96,7 @@ const Navbar = ({
                 alt="logo"
                 className="h-5 w-2"
               />{" "}
-              About
+              Our Story
             </Link>
             {/* <Link
               href={""}
