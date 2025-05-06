@@ -106,7 +106,7 @@ const Hero: React.FC = () => {
         </Link>
       </div>
 
-      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 px-4 text-white md:ml-40">
+      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 px-4 text-white md:ml-60">
         <div>
           {/* <h1
             className="text-center font-open_sans text-8xl font-[600] uppercase md:text-9xl"
