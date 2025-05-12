@@ -47,13 +47,21 @@ const Reserve: React.FC = () => {
           Effortlessly reserve your table and indulge in a seamless dining
           experience where Mediterranean sophistication meets Pan-Asian flair.
         </p>
-        <div className="">
+        <div className="flex flex-row gap-4">
           <Link href={"/table-booking"}>
             <Button
               className="relative z-40 mt-4 flex items-center justify-center gap-3 px-7 py-7 uppercase text-[#fff]"
               variant="imageB"
             >
-              Book Now
+              Book Food
+            </Button>
+          </Link>
+          <Link href={"/table-booking"}>
+            <Button
+              className="relative z-40 mt-4 flex items-center justify-center gap-3 px-6 py-7 uppercase text-[#fff]"
+              variant="imageB"
+            >
+              Book Drinks
             </Button>
           </Link>
         </div>

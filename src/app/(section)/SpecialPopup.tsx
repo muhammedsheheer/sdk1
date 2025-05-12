@@ -68,7 +68,7 @@ const SpecialPopup: FC<SpecialPopupProps> = ({ children, item }) => {
               <Link href="/table-booking">
                 <Button
                   className="hero-button flex items-center justify-center gap-3 border-[0px] px-10 py-7 ring-0"
-                  variant="image"
+                  variant="imageoutline"
                 >
                   Book A Table
                 </Button>
