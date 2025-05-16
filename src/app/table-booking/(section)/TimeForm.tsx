@@ -31,6 +31,7 @@ import type { DayHours, OpenHours } from "@/types/restaurant.type";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { TableFormValues } from "./Table-Validation";
+import PolicySection from "@/components/PolicySection";
 
 interface TimeFormProps {
   mainform: UseFormReturn<TableFormValues, undefined>;
@@ -151,6 +152,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
       <p className="text-[#9C9E9F]">
         Select your details and we`ll try get the best seats for you
       </p>
+      <PolicySection />
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

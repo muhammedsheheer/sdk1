@@ -44,8 +44,9 @@ const Reserve: React.FC = () => {
           Your Table
         </h6>
         <p className="w-full max-w-[450px] text-center font-inter text-sm font-[300] text-[rgba(156,158,159,0.60)] md:text-base">
-          Effortlessly reserve your table and indulge in a seamless dining
-          experience where Mediterranean sophistication meets Pan-Asian flair.
+          Our food takes its inspiration from (Europe), with a focus on seafood,
+          fish, and meat cooked and grill. Our bar will serve an array of
+          classic and innovative cocktails in the heart of Greengate Square.
         </p>
         <div className="flex flex-row gap-4">
           <Link href={"/table-booking"}>

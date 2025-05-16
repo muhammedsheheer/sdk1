@@ -16,12 +16,14 @@ const Unique: React.FC = () => {
           </h6>
           <div className="flex flex-col items-center justify-center px-4 md:px-0">
             <p className="w-full max-w-[570px] text-center font-lora text-sm font-[400] text-[#9C9E9F] md:text-base">
-              We blend streamlined architecture with bold, innovative
-              features—crafting a cutting-edge SDK that delivers
-              high-performance functionality using the most robust, modern
-              technologies. Every integration offers a perfect balance of
-              reliability, flexibility, and an unforgettable developer
-              experience.
+              Delectable (European)-inspired cuisine in the heart of Greengate,
+              Manchester. SDK Manchester is a bar and restaurant, serving
+              (European) -inspired seafood, fish, and meat cooked on a (Grill).
+              Our high-end glamour, décor, and opulent culinary are inspired by
+              (modern Europe) offering an experience like no other. Our bar and
+              restaurant are open for lunch and dinner, offering sumptuous
+              cuisine, intriguing cocktails, and exclusive late-night
+              experiences.
             </p>
           </div>
         </div>{" "}
