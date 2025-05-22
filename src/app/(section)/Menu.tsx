@@ -6,75 +6,63 @@ import React from "react";
 const menuData = {
   food: [
     {
-      name: "NOVA MEZE PLATTER (V)",
-      description:
-        "Homemade Hummus, Baba Ghanoush, Cacik, Couscous With Caponata & Bread",
+      name: "Baked nocellara olives",
+
+      price: 5.0,
+    },
+    {
+      name: "Toasted bread, panzanella dip",
+      price: 7.0,
+    },
+    {
+      name: "Yellowtail tiradito, truffle yuzu kosho",
+
       price: 16,
     },
     {
-      name: "CRISPY FOCACCIA (V)",
-      description: "Focaccia bread, Ricotta & Truffle Honey",
-      price: 7,
+      name: "Seared Wagyu, italian red onion ponzu, micro salad",
+      price: 19,
     },
     {
-      name: "SPICY SALMON TARTARE",
-      description:
-        "Raw Salmon, Avocado, Red Sweet Chilli, Mint, Tobico, Lemon & Virgin Olive Oil",
-      price: 14,
+      name: "Crab toast, lemon kosho mayo, chives",
+
+      price: 15,
     },
     {
-      name: "LOBSTER (GF)",
-      description: "Whole Grilled Lobster, Chives Oil & Saffron Mayo",
-      price: 90,
-    },
-    {
-      name: "FIVE VARIATION SASHIMI",
-      description:
-        "Choose one or mix & match: Salmon, tuna, hamachi, unagi, prawns",
-      price: 45,
-    },
-    {
-      name: "Tomahawk(650g - 750g)",
-      description: "Thick bone-in Ribeye, Mixed Aromatic Herbs & Garlic Puree",
-      price: 98,
+      name: "Amalfi lemon cheesecake",
+      price: 9.0,
     },
   ],
   drinks: [
     {
-      name: "RENOVATE",
-      description:
-        "Bacardi 4 Years, Bombay Sapphire Gin, Bacardi Blanca, Mango and Lime",
-      price: 15,
+      name: "Grilled Octopus, red peppers emulsion, lime oil",
+
+      price: 23,
     },
     {
-      name: "NOVAS",
-      description:
-        "Bacardi 8 Years, Watermelon and Grenadine Syrup with Lime Juice and Guava Juice",
-      price: 15,
+      name: "Truffle fries",
+
+      price: 6.0,
     },
     {
-      name: "TUTTI FRUITI",
-      description:
-        "Mango based springtime delicacy, Grenadine with Banana and Pineapple and Lemon Juice",
-      price: 9,
+      name: "Baby chicken, Caesar butter, parmesan",
+
+      price: 24,
     },
     {
-      name: "BUBBLEPOLITAN",
-      description:
-        "Raspberry Vodka, Bubblegum Syrup, Cranberry Juice, Raspberry Puree",
-      price: 15,
+      name: "Australian wagyu sirloin, black pepper sauce",
+
+      price: 36,
     },
     {
-      name: "NOVIOLETTE",
-      description:
-        "Floral Violet Syrup spiced wiht Ginger , paved with Lime and Lychee after taste.",
-      price: 9,
+      name: "Italian tomato salad, feta",
+
+      price: 7.0,
     },
     {
-      name: "I AM BLUE",
-      description:
-        "Blue Orange attraction with Lychee and Lemon Juice topped with Lemonade",
-      price: 9,
+      name: "Spicy Tenderstem broccoli",
+
+      price: 8.0,
     },
   ],
 };
@@ -115,11 +103,8 @@ const Menu: React.FC = () => {
                   <p className="font-inter text-sm font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
                     {item.name}
                   </p>
-                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-xs font-[300] md:text-base">
-                    {item.description}
-                  </p>
                 </div>
-                <div className="flex items-center gap-1 md:mb-12">
+                <div className="flex items-center gap-1">
                   <div className="*: flex flex-col gap-0">
                     <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
                     <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
@@ -143,11 +128,8 @@ const Menu: React.FC = () => {
                   <p className="font-inter text-sm font-[600] uppercase text-[#000] md:text-lg md:tracking-[3px]">
                     {item.name}
                   </p>
-                  <p className="text-[rgba(0, 0, 0, 0.60)] font-inter text-xs font-[300] md:text-base">
-                    {item.description}
-                  </p>
                 </div>
-                <div className="flex items-center gap-1 md:mb-12">
+                <div className="flex items-center gap-1">
                   <div className="*: flex flex-col gap-0">
                     <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
                     <div className="hidden h-1 w-[150px] border-b-[1px] border-b-[#000] md:block" />
